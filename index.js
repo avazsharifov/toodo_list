@@ -92,13 +92,13 @@ let xayot = inp.value
 
 
 avaz()
-let math =  Math.floor(Math.random() * 10)
+let math =  
 
 
 btn.onclick= (event) => {
   event.preventDefault()
   let arr = {
-      id : math ,
+      id : Math.floor(Math.random() * 10) ,
      
       isDone : false,
       time : avaz()
